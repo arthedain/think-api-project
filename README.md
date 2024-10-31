@@ -26,7 +26,7 @@ cd think-api-project
 
 2. Generate an application key:
     ```bash
-    ./vendor/bin/sail artisan key:generate
+    php artisan key:generate
     ```
 
 3. Update `.env` with necessary configurations, such as database credentials, queue drivers, API credentials, etc.
